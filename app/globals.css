@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+:root {
+  /* Primary Colors */
+  --primary: #4F46E5;
+  --primary-light-1: /* value from gradient swatch */ #818CF8; /* approximate based on standard palette, or use inspected values */
+  
+  /* Secondary Colors */
+  --secondary: #3B82F6;
+
+  /* Tertiary Colors */
+  --tertiary: #10B981; /* or #18B981 depending on exact hex reading, shown as #18B981 on screen */
+
+  /* Neutral Colors */
+  --neutral: #0F172A;
+
+  /* Typography / Fonts */
+  --font-headline: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-label: 'JetBrains Mono', monospace;
+}
